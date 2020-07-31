@@ -17,6 +17,27 @@
             <scope>system</scope>
             <systemPath>${basedir}/_lib/spigot-1.16.1.jar</systemPath>
         </dependency>
+        <dependency>
+            <groupId>net.ess3</groupId>
+            <artifactId>EssentialX</artifactId>
+            <version>2.18.0.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/_lib/EssentialsX-2.18.0.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>net.ess3</groupId>
+            <artifactId>EssentialX-Protect</artifactId>
+            <version>2.18.0.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/_lib/EssentialsXProtect-2.18.0.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>net.ess3</groupId>
+            <artifactId>EssentialX-Chat</artifactId>
+            <version>2.18.0.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/_lib/EssentialsXChat-2.18.0.0.jar</systemPath>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
