@@ -7,3 +7,14 @@ commands:
   TimeForFlight:
     aliases:
       - flighttime
+  ToggleFly:
+    aliases:
+      - ToggleFlight
+permissions:
+  timeforflight.unlimited:
+    default: op
+    description: "无限制飞行，不计算飞行时间"
+  timeforflight.allowflight:
+    description: "拥有此权限的玩家允许飞行"
+  timeforflight.getflighttime:
+    description: "拥有次权限的玩家会获赠飞行时间"
