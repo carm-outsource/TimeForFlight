@@ -1,0 +1,9 @@
+name: TimeForFlight
+main: com.carmwork.plugin.timeforflight.Main
+version: 1.0.0 - SNAPSHOT
+author: CarmJos
+depend: [ProtocolLib]
+commands:
+  TimeForFlight:
+    aliases:
+      - flighttime
