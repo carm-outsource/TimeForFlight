@@ -5,6 +5,9 @@ author: CarmJos
 depend: [ProtocolLib]
 commands:
   TimeForFlight:
+    permission: timeforflight.admin
+    description: 管理员指令
+    permission-message: "§c抱歉！§7但您没有这么做的权限。"
     aliases:
       - flighttime
   ToggleFly:

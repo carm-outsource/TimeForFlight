@@ -26,10 +26,8 @@ public class PlayerListener implements Listener {
 		Player player = event.getPlayer();
 		UserData playerCache = DataManager.getData(player.getUniqueId());
 
-		if (player.getAllowFlight()) {
-			player.setAllowFlight(false);
-			player.setFlying(false);
-		}
+		player.setAllowFlight(false);
+		player.setFlying(false);
 
 
 		DataManager.unloadData(player.getUniqueId());
