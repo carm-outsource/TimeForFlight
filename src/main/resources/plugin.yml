@@ -1,8 +1,12 @@
-name: TimeForFlight
-main: com.carmwork.plugin.timeforflight.Main
-version: 1.0.0 - SNAPSHOT
+
+main: cc.carm.plugin.timeforflight.Main
+
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
 author: CarmJos
-depend: [ProtocolLib]
+website: ${project.url}
+
 commands:
   TimeForFlight:
     permission: timeforflight.admin
@@ -13,7 +17,10 @@ commands:
   ToggleFly:
     aliases:
       - ToggleFlight
+
 permissions:
+  timeforflight.admin:
+    default: op
   timeforflight.unlimited:
     default: op
     description: "无限制飞行，不计算飞行时间"
