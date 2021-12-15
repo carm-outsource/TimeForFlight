@@ -10,9 +10,7 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
       - name: "Set up JDK"
@@ -25,7 +23,7 @@ jobs:
           server-username: MAVEN_USERNAME
           server-password: MAVEN_TOKEN
       - name: "Package"
-        run: mvn -B package --file pom.xml
+        run: mvn -B package --file pom.xml -Dmaven.javadoc.skip=true
         env:
           MAVEN_USERNAME: ${{ github.repository_owner }}
           MAVEN_TOKEN: ${{secrets.GITHUB_TOKEN}}
